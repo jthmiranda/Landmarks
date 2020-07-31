@@ -10,7 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello SwiftUI")
+        Text("Tutle Rock")
+            .font(.title)
+            .foregroundColor(Color.green)
+            
     }
 }
 
