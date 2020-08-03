@@ -16,7 +16,8 @@ struct Landmark: Hashable, Codable, Identifiable {
     fileprivate var coordinates: Coordinates
     var state: String
     var park: String
-    var category: String
+    var category: Category
+    var isFavorite: Bool
     
     var locationCoordinates: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude)
@@ -26,6 +27,7 @@ struct Landmark: Hashable, Codable, Identifiable {
         case featured = "Featured"
         case lakes = "Lakes"
         case rivers = "Rivers"
+        case mountains = "Mountains"
     }
     
 }
