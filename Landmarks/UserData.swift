@@ -11,7 +11,7 @@ import Combine
 final class UserData: ObservableObject {
     
     @Published var showOnlyFavotiresOnly = false
-    @Published var landmark = landmarkData
+    @Published var landmarks = landmarkData
     
     
 }
