@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Home.swift
 //  Landmarks
 //
 //  Created by Jonathan Miranda on 7/31/20.
@@ -8,15 +8,19 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CategoryHome: View {
+    
+    
     var body: some View {
-        
-         Text("")
+        NavigationView {
+            Text("Landmarks Content")
+                .navigationBarTitle("Featured")
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CategoryHome()
     }
 }
