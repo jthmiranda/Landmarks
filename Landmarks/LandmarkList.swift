@@ -12,7 +12,7 @@ struct LandmarkList: View {
     @EnvironmentObject var userData: UserData
     
     var body: some View {
-        NavigationView {
+        
             List {
                 Toggle(isOn: $userData.showOnlyFavotiresOnly) {
                     Text("Show Favorites")
@@ -27,17 +27,19 @@ struct LandmarkList: View {
                 }
                 .navigationBarTitle("Landmarks")
             }
-        }
+        
     }
 }
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE", "iPhone 11 Pro Max"], id: \.self) { device in
-            LandmarkList()
-                .previewDevice(PreviewDevice(rawValue: device))
-                .previewDisplayName(device)
-                .environmentObject(UserData())
+            NavigationView {
+                LandmarkList()
+                    .previewDevice(PreviewDevice(rawValue: device))
+                    .previewDisplayName(device)
+                    .environmentObject(UserData())
+            }
         }
     }
 }
