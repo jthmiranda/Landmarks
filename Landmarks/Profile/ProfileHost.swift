@@ -12,7 +12,10 @@ struct ProfileHost: View {
     @State var drafProfile = Profile.default
     
     var body: some View {
-        Text("Profile for: \(drafProfile.username)")
+        VStack(alignment: .leading, spacing: 20) {
+            ProfileSummary(profile: drafProfile)
+        }
+        .padding()
     }
 }
 
