@@ -12,6 +12,7 @@ final class UserData: ObservableObject {
     
     @Published var showOnlyFavotiresOnly = false
     @Published var landmarks = landmarkData
+    @Published var profile = Profile.default
     
     
 }
