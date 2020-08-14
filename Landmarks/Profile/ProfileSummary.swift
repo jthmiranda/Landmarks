@@ -29,6 +29,33 @@ struct ProfileSummary: View {
             Text("Seasonal Photo: \(profile.seasonalPhoto.rawValue)")
             
             Text("Goal Date: \(profile.goalDate, formatter: Self.goalFormatter)")
+            
+            VStack(alignment: .leading) {
+                Text("Complete Badges")
+                    .font(.headline)
+                
+                ScrollView {
+                    HStack {
+                        HikeBadge(name: "First Hike")
+                        
+                        HikeBadge(name: "Earth Day")
+                            .hueRotation(Angle(degrees: 90))
+                        
+                        HikeBadge(name: "Tenth Hike")
+                            .grayscale(0.50)
+                            .hueRotation(Angle(degrees: 45))
+                    }
+                    
+                }
+                .frame(height: 140)
+            }
+            
+            VStack(alignment: .leading) {
+                Text("Recents Hike")
+                    .font(.headline)
+                
+                HikeView(hike: hikeData[0])
+            }
         }
     }
 }
