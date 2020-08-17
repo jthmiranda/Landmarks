@@ -41,7 +41,7 @@ struct ProfileEditor: View {
             }
             .padding(.top)
             
-            VStack {
+            VStack(alignment: .leading, spacing: 20) {
                 Text("Goal Date:").bold()
                 DatePicker(
                     "Goal Date",
@@ -49,6 +49,8 @@ struct ProfileEditor: View {
                     in: dateRange,
                     displayedComponents: .date
                 )
+                .labelsHidden()
+                .datePickerStyle(WheelDatePickerStyle())
             }
             .padding(.top)
         }
