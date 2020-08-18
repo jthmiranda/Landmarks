@@ -10,13 +10,15 @@ import SwiftUI
 
 struct PageView<Page: View>: View {
     var viewController: [UIHostingController<Page>]
+    @State var currentPage = 0
     
     init(_ view: [Page]) {
         self.viewController = view.map { UIHostingController(rootView: $0)}
     }
     
     var body: some View {
-        PageViewController(controllers: viewController)
+        PageViewController(controllers: viewController, currentPage: $currentPage)
+        Text("Current Page: \(currentPage)")
     }
 }
 
@@ -24,6 +26,5 @@ struct PageView_Previews: PreviewProvider {
     static var previews: some View {
         PageView(features.map { FeatureCard(landmark: $0) })
             .aspectRatio(3/2, contentMode: .fit)
-            //.environmentObject(UserData())
     }
 }
