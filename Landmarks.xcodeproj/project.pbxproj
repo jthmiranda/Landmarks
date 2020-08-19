@@ -49,6 +49,7 @@
 		342ACED324ECB48500D0F5CC /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34524B4224D880ED0019ED0C /* twinlake.jpg */; };
 		342ACED424ECB48500D0F5CC /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34524B4324D880ED0019ED0C /* umbagog.jpg */; };
 		342ACED524ECB48500D0F5CC /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34524B4524D880ED0019ED0C /* chincoteague.jpg */; };
+		342ACED724ECB53800D0F5CC /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ACED624ECB53800D0F5CC /* WatchLandmarkDetail.swift */; };
 		342F9EE624E3A79D00351A12 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F9EE524E3A79D00351A12 /* ProfileHost.swift */; };
 		342F9EE924E3A81D00351A12 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F9EE824E3A81D00351A12 /* Profile.swift */; };
 		34524B3324D86E300019ED0C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34524B3224D86E300019ED0C /* Landmark.swift */; };
@@ -156,6 +157,7 @@
 		342ACEAC24ECB15500D0F5CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		342ACEAE24ECB15500D0F5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342ACEAF24ECB15500D0F5CC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		342ACED624ECB53800D0F5CC /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
 		342F9EE524E3A79D00351A12 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		342F9EE824E3A81D00351A12 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		34524B3224D86E300019ED0C /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 		342ACE9E24ECB15400D0F5CC /* WatchLandmarks Extension */ = {
 			isa = PBXGroup;
 			children = (
+				342ACED624ECB53800D0F5CC /* WatchLandmarkDetail.swift */,
 				342ACE9F24ECB15400D0F5CC /* LandmarksApp.swift */,
 				342ACEA124ECB15400D0F5CC /* ContentView.swift */,
 				342ACEA324ECB15400D0F5CC /* NotificationController.swift */,
@@ -455,7 +458,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Jonathan Miranda";
 				TargetAttributes = {
 					342ACE9024ECB15200D0F5CC = {
@@ -564,6 +567,7 @@
 				342ACEA024ECB15400D0F5CC /* LandmarksApp.swift in Sources */,
 				342ACEC224ECB41F00D0F5CC /* Data.swift in Sources */,
 				342ACEC424ECB41F00D0F5CC /* LandmarkRow.swift in Sources */,
+				342ACED724ECB53800D0F5CC /* WatchLandmarkDetail.swift in Sources */,
 				342ACEA624ECB15400D0F5CC /* NotificationView.swift in Sources */,
 				342ACEC324ECB41F00D0F5CC /* CircleImage.swift in Sources */,
 				342ACEC524ECB41F00D0F5CC /* Landmark.swift in Sources */,
@@ -646,6 +650,7 @@
 				DEVELOPMENT_TEAM = 9VQ88X3US5;
 				IBSC_MODULE = WatchLandmarks_Extension;
 				INFOPLIST_FILE = WatchLandmarks/Info.plist;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = jonathanmiranda.Landmarks.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -667,6 +672,7 @@
 				DEVELOPMENT_TEAM = 9VQ88X3US5;
 				IBSC_MODULE = WatchLandmarks_Extension;
 				INFOPLIST_FILE = WatchLandmarks/Info.plist;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = jonathanmiranda.Landmarks.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -753,6 +759,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -813,6 +820,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
