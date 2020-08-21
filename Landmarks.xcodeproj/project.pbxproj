@@ -72,6 +72,7 @@
 		34524B5C24D8D4650019ED0C /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34524B5B24D8D4650019ED0C /* charleyrivers.jpg */; };
 		34524B5E24D8D9BA0019ED0C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34524B5D24D8D9BA0019ED0C /* UserData.swift */; };
 		345844CD24EF672F00AACE0F /* WatchMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345844CC24EF672F00AACE0F /* WatchMapView.swift */; };
+		345844CE24EF701800AACE0F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34524B5724D886320019ED0C /* LandmarkList.swift */; };
 		345ED5FB24D658F200CF178C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ED5FA24D658F200CF178C /* MapView.swift */; };
 		3463A6B724D8F9D1004B1F08 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3463A6B624D8F9D0004B1F08 /* landmarkData.json */; };
 		3463A6B924DA44EF004B1F08 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3463A6B824DA44EE004B1F08 /* HexagonParameters.swift */; };
@@ -565,6 +566,7 @@
 				345844CD24EF672F00AACE0F /* WatchMapView.swift in Sources */,
 				342ACEA424ECB15400D0F5CC /* NotificationController.swift in Sources */,
 				342ACEC124ECB41F00D0F5CC /* UserData.swift in Sources */,
+				345844CE24EF701800AACE0F /* LandmarkList.swift in Sources */,
 				342ACEA224ECB15400D0F5CC /* ContentView.swift in Sources */,
 				342ACEC024ECB41F00D0F5CC /* Profile.swift in Sources */,
 				342ACEA824ECB15400D0F5CC /* ComplicationController.swift in Sources */,
