@@ -50,6 +50,8 @@
 		342ACED424ECB48500D0F5CC /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34524B4324D880ED0019ED0C /* umbagog.jpg */; };
 		342ACED524ECB48500D0F5CC /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34524B4524D880ED0019ED0C /* chincoteague.jpg */; };
 		342ACED724ECB53800D0F5CC /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342ACED624ECB53800D0F5CC /* WatchLandmarkDetail.swift */; };
+		342DD61524F03976004220BB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342DD61424F03976004220BB /* Interface.storyboard */; };
+		342DD61724F03F8D004220BB /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DD61624F03F8D004220BB /* HostingController.swift */; };
 		342F9EE624E3A79D00351A12 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F9EE524E3A79D00351A12 /* ProfileHost.swift */; };
 		342F9EE924E3A81D00351A12 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F9EE824E3A81D00351A12 /* Profile.swift */; };
 		34524B3324D86E300019ED0C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34524B3224D86E300019ED0C /* Landmark.swift */; };
@@ -160,6 +162,8 @@
 		342ACEAE24ECB15500D0F5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342ACEAF24ECB15500D0F5CC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		342ACED624ECB53800D0F5CC /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
+		342DD61424F03976004220BB /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		342DD61624F03F8D004220BB /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		342F9EE524E3A79D00351A12 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		342F9EE824E3A81D00351A12 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		34524B3224D86E300019ED0C /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -226,6 +230,7 @@
 		342ACE9224ECB15200D0F5CC /* WatchLandmarks */ = {
 			isa = PBXGroup;
 			children = (
+				342DD61424F03976004220BB /* Interface.storyboard */,
 				342ACE9324ECB15400D0F5CC /* Assets.xcassets */,
 				342ACE9524ECB15400D0F5CC /* Info.plist */,
 			);
@@ -242,6 +247,7 @@
 				342ACEA324ECB15400D0F5CC /* NotificationController.swift */,
 				342ACEA524ECB15400D0F5CC /* NotificationView.swift */,
 				342ACEA724ECB15400D0F5CC /* ComplicationController.swift */,
+				342DD61624F03F8D004220BB /* HostingController.swift */,
 				342ACEA924ECB15500D0F5CC /* Assets.xcassets */,
 				342ACEAE24ECB15500D0F5CC /* Info.plist */,
 				342ACEAF24ECB15500D0F5CC /* PushNotificationPayload.apns */,
@@ -501,6 +507,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342DD61524F03976004220BB /* Interface.storyboard in Resources */,
 				342ACE9424ECB15400D0F5CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +571,7 @@
 			files = (
 				342ACEBF24ECB41F00D0F5CC /* Hike.swift in Sources */,
 				345844CD24EF672F00AACE0F /* WatchMapView.swift in Sources */,
+				342DD61724F03F8D004220BB /* HostingController.swift in Sources */,
 				342ACEA424ECB15400D0F5CC /* NotificationController.swift in Sources */,
 				342ACEC124ECB41F00D0F5CC /* UserData.swift in Sources */,
 				345844CE24EF701800AACE0F /* LandmarkList.swift in Sources */,
