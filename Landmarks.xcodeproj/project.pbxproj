@@ -111,6 +111,7 @@
 		349DA76324F3644500A188FD /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349DA76224F3644500A188FD /* LandmarkList.swift */; };
 		349DA76524F429F900A188FD /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349DA76424F429F900A188FD /* Filter.swift */; };
 		349DA76724F43C9000A188FD /* NavigationPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349DA76624F43C9000A188FD /* NavigationPrimary.swift */; };
+		349DA76824F493D600A188FD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7E14B24D5281C00F6A379 /* CircleImage.swift */; };
 		34C718B524F21407009DBA83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C718B424F21407009DBA83 /* AppDelegate.swift */; };
 		34C718B724F21407009DBA83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C718B624F21407009DBA83 /* ContentView.swift */; };
 		34C718B924F2140A009DBA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C718B824F2140A009DBA83 /* Assets.xcassets */; };
@@ -719,6 +720,7 @@
 				349DA76724F43C9000A188FD /* NavigationPrimary.swift in Sources */,
 				349DA74F24F216E700A188FD /* Profile.swift in Sources */,
 				349DA74E24F216E700A188FD /* Data.swift in Sources */,
+				349DA76824F493D600A188FD /* CircleImage.swift in Sources */,
 				349DA75024F216E700A188FD /* Hike.swift in Sources */,
 				349DA76324F3644500A188FD /* LandmarkList.swift in Sources */,
 				34C718B524F21407009DBA83 /* AppDelegate.swift in Sources */,
