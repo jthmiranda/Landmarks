@@ -113,6 +113,7 @@
 		349DA76724F43C9000A188FD /* NavigationPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349DA76624F43C9000A188FD /* NavigationPrimary.swift */; };
 		349DA76824F493D600A188FD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7E14B24D5281C00F6A379 /* CircleImage.swift */; };
 		349DA76924F4949500A188FD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345ED5FA24D658F200CF178C /* MapView.swift */; };
+		349DA76B24F6069200A188FD /* NavigationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349DA76A24F6069100A188FD /* NavigationDetail.swift */; };
 		34C718B524F21407009DBA83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C718B424F21407009DBA83 /* AppDelegate.swift */; };
 		34C718B724F21407009DBA83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C718B624F21407009DBA83 /* ContentView.swift */; };
 		34C718B924F2140A009DBA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C718B824F2140A009DBA83 /* Assets.xcassets */; };
@@ -233,6 +234,7 @@
 		349DA76224F3644500A188FD /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		349DA76424F429F900A188FD /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		349DA76624F43C9000A188FD /* NavigationPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPrimary.swift; sourceTree = "<group>"; };
+		349DA76A24F6069100A188FD /* NavigationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDetail.swift; sourceTree = "<group>"; };
 		34C718B224F21407009DBA83 /* MacLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C718B424F21407009DBA83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34C718B624F21407009DBA83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -412,6 +414,7 @@
 			children = (
 				34C718B424F21407009DBA83 /* AppDelegate.swift */,
 				349DA76624F43C9000A188FD /* NavigationPrimary.swift */,
+				349DA76A24F6069100A188FD /* NavigationDetail.swift */,
 				349DA76224F3644500A188FD /* LandmarkList.swift */,
 				349DA76024F217A300A188FD /* LandmarkRow.swift */,
 				349DA76424F429F900A188FD /* Filter.swift */,
@@ -716,6 +719,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349DA76B24F6069200A188FD /* NavigationDetail.swift in Sources */,
 				34C718B724F21407009DBA83 /* ContentView.swift in Sources */,
 				349DA76524F429F900A188FD /* Filter.swift in Sources */,
 				349DA76724F43C9000A188FD /* NavigationPrimary.swift in Sources */,
