@@ -32,6 +32,6 @@ struct NavigationPrimary: View {
 struct NavigationPrimary_Previews: PreviewProvider {
     static var previews: some View {
         NavigationPrimary(selectedLandmark: .constant(landmarkData[0]))
-        .environmentObject(UserData())
+            .environmentObject(UserData())
     }
 }

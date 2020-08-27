@@ -57,6 +57,6 @@ struct FilterType: CaseIterable, Hashable, Identifiable {
 struct Filter_Previews: PreviewProvider {
     static var previews: some View {
         Filter(filter: .constant(.all))
-        .environmentObject(UserData())
+            .environmentObject(UserData())
     }
 }
